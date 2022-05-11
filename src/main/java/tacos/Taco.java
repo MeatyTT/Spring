@@ -29,6 +29,6 @@ public class Taco {
 	private List<Ingredient> ingredients;
 	@PrePersist
 	void createdAt() {
-	this.createdAt = new Date();
+	this.createdAt = new Date(0);
 	}
 }
